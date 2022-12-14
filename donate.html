@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donate</title>
+    <link rel="stylesheet" href="./donate.css">
+</head>
+<body>
+    <header class="heading">
+        <div class="logo">
+            <img src="./image.jpg/tsp.jpg.png" alt="">
+            <h3 id="h1">DONATE TODAY</h3>
+        </div>
+        <nav>
+            <ul class="menu">
+                <li> <a href="./index.html">HOME</a> </li>
+                <li> <a href="./about.html">ABOUT</a> </li>
+                <li> <a href="./about.html">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <form action = "https://formspree.io/f/mvoyeded" method="POST">
+            <h2>Donation Form</h2>
+            <input type="text" id="Name" placeholder="Your Name" required>
+            <input type="email" id="e-mail" placeholder="Your E-mail" required>
+            <input type="text" id="Phone Number" placeholder="Phone Number" required>
+            <input type="text" id="amount" placeholder="Amount" required>
+            <h2>Payment information</h2>
+            <select name="Payment method" id="Payment method" placeholder="Payment Method">
+                <option value="">Select Payment Method</option>
+                <option value="Jazz Cash">Jazz Cash</option>
+                <option value="ATM">ATM</option>
+                <option value="Easypaisa">Easypaisa</option>
+            </select>
+            <input type="number" name="cardnumber" id="Card-Number" placeholder="Card Number" required>
+            <input type="date" name="exp-date " id="Exp-Date" placeholder="Exp-date" required>
+            <input type="password" name="CVV" id="CVV" placeholder="Enter CVV" required>
+            <BUtton>SUBMIT DONATION</BUtton>
+            
+        </form>
+    </div>
+</body>
+<footer>
+    <div class="footer">
+        <h3>Our team:</h3>
+        <H5>The Spark Foundation</H5>
+        <h5>GRIP</h5>
+        <H5>MY credential info</H5>
+        <h5>Linkedim</h5>
+
+    </div>
+</footer>
+</html>
